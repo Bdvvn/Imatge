@@ -1,0 +1,26 @@
+{
+  "name": "Bdvvn/Imatge",
+  "description": "PHP image handling and manipulation library",
+  "version": "0.0.1",
+  "keywords": [
+    "Bdvvn",
+    "Imatge"
+  ],
+  "homepage": "https://github.com/Bdvvn/Imatge",
+  "license": "MIT",
+  "require": {
+    "php": "8.*",
+    "ext-gd": "*",
+    "ext-exif": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bdvvn\\Imatge\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bdvvn\\Imatge\\Test\\": "tests"
+    }
+  }
+}
